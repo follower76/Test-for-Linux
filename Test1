@@ -1,0 +1,11 @@
+follower12@follower12-Aspire-5230:~/Desktop$ eval "$(ssh-agent -s)"
+Agent pid 2620
+follower12@follower12-Aspire-5230:~/Desktop$ ssh-add ~/.ssh/id_rsa
+Identity added: /home/follower12/.ssh/id_rsa (/home/follower12/.ssh/id_rsa)
+follower12@follower12-Aspire-5230:~/Desktop$ mkdir Github_Test
+follower12@follower12-Aspire-5230:~/Desktop$ cd Github_Test
+follower12@follower12-Aspire-5230:~/Desktop/Github_Test$ git init
+Initialized empty Git repository in /home/follower12/Desktop/Github_Test/.git/
+follower12@follower12-Aspire-5230:~/Desktop/Github_Test$ ls -a
+.  ..  .git
+
